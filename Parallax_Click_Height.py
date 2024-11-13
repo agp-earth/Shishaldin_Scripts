@@ -716,6 +716,7 @@ for j in range(0, len(imgfiles)):  # len(imgfiles)):
 
     # plt.savefig('/Users/andiegomez-patron/Desktop/Plume_Heights/'+eruption_year+'/'+event_number+'/Parallax_Original/'+file_dataset.attrs['time_coverage_start']+'.png')
 
+    # Interactive bit!
     def onclick(event):
         if event.button == 1:
             # distance_annotation.remove()
@@ -802,7 +803,7 @@ for j in range(0, len(imgfiles)):  # len(imgfiles)):
                 + user
                 + "_"
                 + file_dataset.attrs["time_coverage_start"]
-                + "TESTTESTTESTSETS.png"
+                + ".png"
             )
             # distance_annotation.remove()
             # plume_h_annotation.remove()
