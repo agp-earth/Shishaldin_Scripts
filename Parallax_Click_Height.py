@@ -1,3 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created sometime in March 2024
+
+This is a script to take GOES ABI L2-MCMIPF files
+zoom into Shishaldin volcano, give the desired image product to view,
+and click where you think the top of the plume is.
+
+
+@author: Andie Gomez-Patron
+"""
+
 import netCDF4 as nc
 import numpy as np
 import matplotlib.patches as mpatches
